@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Belajar Javascript - NIOMIC</title>
+  </head>
+  <body>
+    <input type="text" class="tugas" value="Nama Depan"><br>
+    <input type="text" class="tugas" value="Nama Belakang"><br>
+    <input type="text" class="tugas" value="Hobi"><br><br>
+
+    <button type="button" name="button" onclick="panggilDOM()">Jalan</button>
+
+    <script>
+      function panggilDOM(){
+        console.log(document.querySelector(".tugas"))
+      }
+
+      panggilDOM()
+    </script>
+  </body>
+</html>
